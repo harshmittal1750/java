@@ -33,7 +33,7 @@ public class hollowButterfly {
         for (int i = 0; i <= n; i++) {
 
             for (int j = n; j > i; j--) {
-                if (j == 1 || i == 3 || j == n || i == j - 1) {
+                if (j == n || i == j - 1) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
@@ -46,7 +46,7 @@ public class hollowButterfly {
                 System.out.print(" ");
             }
             for (int j = n; j > i; j--) {
-                if (j == 1 || i == 3 || j == n || i == j - 1) {
+                if (j == n || i == j - 1) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
