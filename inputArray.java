@@ -9,7 +9,7 @@ public class inputArray {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.next();
         }
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < arr.length; i++) {
             System.out.println("Name " + (i + 1) + " is " + arr[i]);
         }
         sc.close();
