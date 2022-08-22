@@ -9,18 +9,18 @@ public class checkOrder {
             arr[i] = sc.nextInt();
 
         }
-        boolean isAscending = true;
+
         for (int i = 0; i < arr.length - 1; i++) {
             if (arr[i] > arr[i + 1]) {
-                isAscending = false;
+                System.out.println("not ascending");
+                break;
+            } else {
+                System.out.println("ascending");
             }
+            break;
 
         }
-        if (isAscending) {
-            System.out.println("Ascending order");
-        } else {
-            System.out.println("not ascending");
-        }
+
         sc.close();
     }
 }
