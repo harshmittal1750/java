@@ -1,3 +1,3 @@
 # java
 Java Programs 
-### Tring to learn JAVA
+### Trying to learn JAVA
