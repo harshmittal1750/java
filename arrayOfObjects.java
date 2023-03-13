@@ -9,7 +9,7 @@ public class arrayOfObjects {
     public static void main(String[] args) {
         Student s1 = new Student();// assigning the properties of student class to new instance
         s1.marks = 100;
-        s1.name = "harsh";
+        s1.name = "1234";
         // System.out.println(s1.name + " : " + s1.marks);
         Student s2 = new Student();
         s2.marks = 90;
